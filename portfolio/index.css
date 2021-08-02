@@ -1,0 +1,25 @@
+a {
+    text-decoration: none ;
+    color: black;
+}
+
+div#menu {
+    text-align: right; 
+    padding: 10px;
+    margin: 0 auto;
+    width: 1280px;
+    position: relative;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+div#main {
+    margin: 0 auto;
+    width: 1280px;
+    position: relative;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+div#portfolio {
+    padding: 100px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
