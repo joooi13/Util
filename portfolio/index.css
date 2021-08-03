@@ -12,14 +12,44 @@ div#menu {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-div#main {
+div#main.show_pc {
     margin: 0 auto;
     width: 1280px;
     position: relative;
+    background-color: beige;
     font-family: 'Noto Sans JP', sans-serif;
 }
+
+div#main.show_sp {
+    margin: 0 auto;
+    width: 1280px;
+    position: relative;
+    background-color: burlywood;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 100px;
+}
+
 
 div#portfolio {
     padding: 100px;
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media screen and (min-width: 481px) { 
+    .show_pc {
+        display: block;
+    }
+    .show_sp {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .show_pc {
+        display: none;
+    }
+    .show_sp {
+        display: block;
+     }
+}
 }
