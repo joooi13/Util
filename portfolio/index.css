@@ -21,10 +21,14 @@ div#main.show_sp {
 }
 
 
-div#portfolio {
+div#portfolio.show_pc {
     padding: 100px;
 }
 
+div#portfolio.show_sp {
+    padding: 30px;
+    height: 400px;
+}
 
 
 @media screen and (min-width: 481px) { 
