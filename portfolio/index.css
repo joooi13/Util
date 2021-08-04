@@ -10,19 +10,41 @@ div{
 div#main.show_pc {
     margin: 10px;
     position: relative;
-    background-color: beige;
+    background-color: lavender;
 }
 
 div#main.show_sp {
     margin: 10px;
     position: relative;
-    background-color: burlywood;
+    background-color: lavender;
     font-size: 20px;
 }
 
 
 div#portfolio {
     padding: 100px;
+}
+
+
+
+@media screen and (min-width: 481px) { 
+    .show_pc {
+        display: block;
+    }
+    .show_sp {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) { 
+    .show_pc {
+        display: none;
+    }
+    .show_sp {
+        display: block;
+    }
+    
 }
 
 .header {
@@ -49,7 +71,7 @@ div#portfolio {
 }
 
 .nav-wrap.open {
-    
+    display: block;
 }
 
 .nav-wrap.close {
@@ -77,14 +99,6 @@ div#portfolio {
 
 /* SP */
 @media screen and (max-width: 480px) {
-
-    .show_pc {
-        display: none;
-    }
-    .show_sp {
-        display: block;
-    }
-
     .nav-button {
         display: block;
         cursor: pointer;
