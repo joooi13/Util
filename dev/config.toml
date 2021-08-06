@@ -1,0 +1,39 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hallo"
+
+[Author]
+    name = "Yu Joi"
+
+[params]
+
+    greeting = "Hello!"
+    [[params.links]]
+        icon = "github"
+        title = "Github"
+        url = "https://github.com/joooi13"
+    
+    [[params.links]]
+        icon = "twitter"
+        title = "Twitter"
+        url = "https://twitter.com/joooi13"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:mail@example.org"
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "info-circle"
+        title = "Additional information"
+        url = "#info"
+
+    [params.colors]
+        background = "#dcdcdc"
+        foreground = "#edf7ff"
+        hover = "#ffba82"
+
+    
