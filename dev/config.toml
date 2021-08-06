@@ -1,7 +1,8 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'joooi.dev'
 theme = "hallo"
+publishDir = "../portfolio/public"
 
 [Author]
     name = "Yu Joi"
