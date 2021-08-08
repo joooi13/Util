@@ -28,9 +28,9 @@ publishDir = "../portfolio/public"
 
     [[params.links]]
         iconset = "fas"
-        icon = "info-circle"
-        title = "Additional information"
-        url = "#info"
+        icon = "book-open"
+        title = "note"
+        url = "https://note.com/joooi13/"
 
     [params.colors]
         background = "#dcdcdc"
