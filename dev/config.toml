@@ -24,7 +24,7 @@ publishDir = "../portfolio/public"
         iconset = "fas"
         icon = "envelope"
         title = "E-mail"
-        url = "mailto:mail@example.org"
+        url = "mailto:joinc.dev.info@gmail.com"
 
     [[params.links]]
         iconset = "fas"
