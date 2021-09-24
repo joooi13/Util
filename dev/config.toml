@@ -32,6 +32,12 @@ publishDir = "../portfolio/public"
         title = "note"
         url = "https://note.com/joooi13/"
 
+    [[params.links]]
+        iconset = "fas"
+        icon = "info-circle"
+        title = "About"
+        url = "#about"
+
     [params.colors]
         background = "#dcdcdc"
         foreground = "#edf7ff"
