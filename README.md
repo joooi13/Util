@@ -1,22 +1,31 @@
-# Util
+# joooi13's portfolio
 
-### Hugo
+https://joooi13.dev/
+
+## Useing
+
+#### Hugo
 https://gohugo.io/getting-started/quick-start/
 
-### テーマ
+#### themes
 https://themes.gohugo.io/themes/hallo-hugo/
+
+#### Firebase Hosting
+https://firebase.google.com/docs/hosting?hl=ja
+
 
 
 ```
-//dev配下でローカルで起動
-$ hugo server -D
-※http://localhost:1313/ で接続可能になる
 
-//cloneし直したときはsubmoduleをupdateする
+//Start locally under /dev. Runs the app in the development mode.
+$ hugo server -D
+http://localhost:1313/ can be viewed with a browser
+
+//Update the submodule when it is cloned again.
 $ git submodule update --init --recursive
 
-// deployするときはdev配下でbuild
+// When deploying, build under /dev
 $ hugo
-//portfolio配下で
+//under the control of /portfolio
 $ firebase deploy
 ```
