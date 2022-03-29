@@ -2,7 +2,7 @@
 
 https://joooi13.dev/
 
-## Useing
+## Using
 
 #### Hugo
 https://gohugo.io/getting-started/quick-start/
