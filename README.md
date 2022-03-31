@@ -4,28 +4,27 @@ https://joooi13.dev/
 
 ## Using
 
-#### Hugo
-https://gohugo.io/getting-started/quick-start/
+<p dir="auto">
+  <a href="https://gohugo.io/" rel="nofollow">
+    <img src="https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true" alt="Hugo" width="365" style="max-width: 100%;">
+  </a>
+</p>
 
 #### themes
 https://themes.gohugo.io/themes/hallo-hugo/
 
-#### Firebase Hosting
-https://firebase.google.com/docs/hosting?hl=ja
-
-
+## deploy
 
 ```
-
-//Start locally under /dev. Runs the app in the development mode.
+// Start locally under /dev. Runs the app in the development mode.
 $ hugo server -D
-http://localhost:1313/ can be viewed with a browser
 
-//Update the submodule when it is cloned again.
+// Update the submodule when it is cloned again.
 $ git submodule update --init --recursive
 
 // When deploying, build under /dev
 $ hugo
-//under the control of /portfolio
+
+// Under the control of /portfolio
 $ firebase deploy
 ```
