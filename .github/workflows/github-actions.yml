@@ -1,0 +1,20 @@
+name: hugo-firebase
+on:
+    push:
+      branches:
+        - master 
+jobs:
+    build:
+        name: build hugo
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout Repo
+              uses: actions/checkout@v1
+              with:
+                submodules: true
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                hugo-version: 'latest'
+            - name: build hugo pages
+              run: ( cd dev && hugo )
