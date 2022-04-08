@@ -30,8 +30,4 @@ $ git submodule update --init --recursive
 
 // When deploying, build under /dev
 $ hugo
-
-// Under the control of /portfolio
-$ firebase deploy
-
 ```
