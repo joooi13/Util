@@ -7,3 +7,12 @@
 [submodule "dev/themes/hallo"]
 	path = dev/themes/hallo
 	url = https://github.com/EmielH/hallo-hugo.git
+[submodule "themes/anatole."]
+	path = themes/anatole.
+	url = https://github.com/lxndrblz/anatole.git
+[submodule "develop/themes/anatole."]
+	path = develop/themes/anatole.
+	url = https://github.com/lxndrblz/anatole.git
+[submodule "develop/themes/anatole"]
+	path = develop/themes/anatole
+	url = https://github.com/lxndrblz/anatole.git

@@ -1,0 +1,37 @@
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "anatole/"
+    disable = false
+
+[params]
+title = "I'm Yu Joi"
+author = "Yu Joi"
+description = "Hi"
+profilePicture = "images/profile.jpg"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:mail@example.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
