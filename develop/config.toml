@@ -6,15 +6,32 @@
     disable = false
 
 [params]
-title = "I'm Yu Joi"
+title = "Portfolio"
 author = "Yu Joi"
-description = "Hi"
+description = "I'm Yu Joi"
 profilePicture = "images/profile.jpg"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/joooi13"
+    
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/joooi13"
+
+
+[[params.socialIcons]]
+icon = "fab fa-google-play"
+title = "GooglePlay"
+url = "https://play.google.com/store/apps/developer?id=JOINC"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@example.com"
+
 
 [menu]
 
