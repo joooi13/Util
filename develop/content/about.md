@@ -1,3 +1,11 @@
++++
+title = "About"
+description = "about"
+date = "2022-06-20"
+aliases = ["about-us", "about-hugo", "contact"]
+author = "Hugo Authors"
++++
+
 ### Career
 
 Software Engineer since 2013.
