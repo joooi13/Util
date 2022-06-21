@@ -1,3 +1,47 @@
+languageCode = "en"
+DefaultContentLanguage = "en"
+
+# theme as hugo module
+#theme = "github.com/lxndrblz/anatole"
+# theme as git submodule
+theme = "anatole"
+
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Syntax highlighting
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+        unsafe=true
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+
+[[related.indices]]
+  name = 'keywords'
+  weight = 100
+  
+[[related.indices]]
+  name = 'tags'
+  weight = 80
+
+
 [module]
   # uncomment line below for temporary local development of module
   # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
@@ -10,6 +54,7 @@ title = "Portfolio"
 author = "Yu Joi"
 description = "I'm Yu Joi"
 profilePicture = "images/profile.jpg"
+disableThemeSwitcher = true
 
 [[params.socialIcons]]
 icon = "fab fa-github"
