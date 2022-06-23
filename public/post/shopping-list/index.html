@@ -8,7 +8,7 @@
   <title>
     joooi13.dev
         |
-        404 Page not found
+        買い物リストの管理を簡単にしたい
 
 
       
@@ -23,7 +23,7 @@
   <meta name="author" content="joooi13.dev" />
   <meta
     name="description"
-    content="I&#39;m Yu Joi"
+    content="買い物リストの管理を簡単にしたい"
   />
   
   
@@ -78,7 +78,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="/404.html" />
+  <link rel="canonical" href="/post/shopping-list/" />
 
   
   
@@ -98,22 +98,89 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
-<meta name="twitter:description" content="I&#39;m Yu Joi"/>
+<meta name="twitter:title" content="買い物リストの管理を簡単にしたい"/>
+<meta name="twitter:description" content="買い物リストの管理を簡単にしたい"/>
 
 
 
   
-  <meta property="og:title" content="404 Page not found" />
-<meta property="og:description" content="I&#39;m Yu Joi" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/404.html" /><meta property="og:site_name" content="Portfolio" />
+  <meta property="og:title" content="買い物リストの管理を簡単にしたい" />
+<meta property="og:description" content="買い物リストの管理を簡単にしたい" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/shopping-list/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-10-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-10T00:00:00+00:00" /><meta property="og:site_name" content="Portfolio" />
 
 
 
 
   
   
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "買い物リストの管理を簡単にしたい",
+        "headline": "買い物リストの管理を簡単にしたい",
+        "alternativeHeadline": "",
+        "description": "
+      買い物リストの管理を簡単にしたい
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "\/post\/shopping-list\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Hugo Authors"
+        },
+        "copyrightYear" : "2020",
+        "dateCreated": "2020-10-10T00:00:00.00Z",
+        "datePublished": "2020-10-10T00:00:00.00Z",
+        "dateModified": "2020-10-10T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Hugo Authors",
+            "url": "",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "\/post\/shopping-list\/",
+        "wordCount" : "86",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
 
 </head>
 <body
@@ -305,11 +372,69 @@
   </nav>
 </div>
 </header>
-  <div class="page_404">
-    <h1>404</h1>
-    <h2>Page Not Found</h2>
-    <p>Sorry, this page does not exist.</p>
-    <p>You can head back to <a href="">homepage</a>.</p>
+  <div
+    class="post 
+      animated fadeInDown
+
+    "
+  >
+    
+    <div class="post__content">
+      <h1>買い物リストの管理を簡単にしたい</h1>
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                Sat, Oct 10, 2020
+
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">One-minute read</span>
+          </li>
+        </ul>
+
+      <h2 id="きっかけ">きっかけ</h2>
+<p>簡単に家族でショッピングリストを共有したいなと思った。<br>
+どこかに日頃から書き込むようにすればいいのだがパッと記載できるものが定まらずなんとなく Google Home アプリのショッピングリストを使っていたりした。</p>
+<p>「OK Gooogle、ショッピングリストに”卵”を追加して」</p>
+<p>これで追加出来るわけだが、なんと音声で削除ができない。<br>
+削除するには、Google ホームアプリ &gt; メニュー &gt; ショッピングリストと遷移して手動で消すみたいなフローになる。(音声で出来る方法があったら本当にすみません)</p>
+<p>音声でリストに追加できるのはとても利便性がよいのだが、やっぱりテキストベースでも簡単に操作できたらいいなあという思いがあったり、実は声でなかなか追加しなかったりする現状もある。</p>
+<h2 id="やりたいこと">やりたいこと</h2>
+<p>考えたのが LINE の Messaging API を利用して Bot を作成する方法だった。イメージとしてはこんな感じ。</p>
+<p>買いたいものを日頃から思いついた時に各々 Bot に送り、それが共通のリストに追加される。買い物の時にそれを一覧としてざっと表示されれば嬉しい。さらに、削除も簡単にできたら利便性がいい。</p>
+<h2 id="やったこと">やったこと</h2>
+<p>① LINE Developers に登録でアカウントを作成</p>
+<p><a href="https://developers.line.biz/ja/">LINE Developers</a></p>
+<p>② &ldquo;お買い物リスト&quot;のチャンネルを作成する。Messaging API を使う。</p>
+<p><a href="https://developers.line.biz/ja/services/messaging-api/">Messaging API</a></p>
+<p>③ リスト管理用の Google スプレッドシートを用意</p>
+<p>④ GAS をサーバとして API を作成。<br>
+ここで ③ で用意したスプレッドシートに書き込み・削除ができるように実装している。</p>
+<p>⑤ Messaging API の Webhook 設定に GAS で作成した API を指定</p>
+<p>ざっくりこんな感じで実現させた。<br>
+結局 Google ホームアプリのショッピングリストは使わなかったが、スプレッドシートでやりたいことが実現できた。</p>
+<h2 id="完成形">完成形</h2>
+<p>LINE で実際に操作したキャプチャが以下。</p>
+<p>LINE のメッセージで文字列が送信されたらそれをトリガーにして、スプレッドシートの A 列へ順に書き込まれるようにしている。</p>
+<p>現在は、”一覧”という文字列が送信された場合は A 列を全て返すようにし、”削除”という文字列の場合は A 列を全削除するようにしている。また、コンテンツを取得できたので、文字列以外は登録できないように制御をした。</p>
+<h2 id="ちょっと便利になった">ちょっと便利になった</h2>
+<p>作った Bot を友だち登録し、各々好きな時に必要なものを LINE 送信しておけば、共通のリストで管理ができるようになった。<br>
+改善はまだまだできそうだが一旦これで運用する。</p>
+</div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
   </div>
 
 
