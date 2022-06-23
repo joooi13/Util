@@ -51,5 +51,82 @@
       
     </item>
     
+    <item>
+      <title>買い物リストの管理を簡単にしたい</title>
+      <link>/post/shopping-list/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/shopping-list/</guid>
+      
+        <description>買い物リストの管理を簡単にしたい</description>
+      
+    </item>
+    
+    <item>
+      <title>社会人10年目を迎えた話</title>
+      <link>/post/10nen/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/10nen/</guid>
+      
+        <description>社会人10年目を迎えた話</description>
+      
+    </item>
+    
+    <item>
+      <title>CameraX</title>
+      <link>/post/camerax/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/camerax/</guid>
+      
+        <description>CameraX</description>
+      
+    </item>
+    
+    <item>
+      <title>Android Things Starter Kitを試す</title>
+      <link>/post/androidthings-starterkit/</link>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/androidthings-starterkit/</guid>
+      
+        <description>Android Things Starter Kitを試す</description>
+      
+    </item>
+    
+    <item>
+      <title>Yahoo Japan Tech Conference 2019に参加しました</title>
+      <link>/post/yahoojapan-techconference2019/</link>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/yahoojapan-techconference2019/</guid>
+      
+        <description>Yahoo Japan Tech Conference 2019に参加しました</description>
+      
+    </item>
+    
+    <item>
+      <title>DevFest Tokyo 2018</title>
+      <link>/post/devfest-tokyo2018/</link>
+      <pubDate>Sat, 08 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/devfest-tokyo2018/</guid>
+      
+        <description>DevFest Tokyo 2018</description>
+      
+    </item>
+    
+    <item>
+      <title>Google I/O 2018に参加しました</title>
+      <link>/post/googleio-2018/</link>
+      <pubDate>Sun, 13 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/googleio-2018/</guid>
+      
+        <description>Google I/O 2018に参加しました</description>
+      
+    </item>
+    
   </channel>
 </rss>

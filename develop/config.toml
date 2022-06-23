@@ -51,7 +51,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [params]
 title = "Portfolio"
-author = "Yu Joi"
+author = "joooi13.dev"
 description = "I'm Yu Joi"
 profilePicture = "images/profile.jpg"
 disableThemeSwitcher = true
@@ -75,7 +75,7 @@ url = "https://play.google.com/store/apps/developer?id=JOINC"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:joinc.dev.info@gmail.com"
 
 
 [menu]
