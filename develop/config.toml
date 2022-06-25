@@ -56,6 +56,7 @@ author = "joooi13.dev"
 description = "I'm Yu Joi"
 profilePicture = "images/profile.jpg"
 disableThemeSwitcher = true
+favicon = "favicons/"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
