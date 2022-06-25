@@ -43,13 +43,6 @@ pygmentsCodefencesGuessSyntax = true
   weight = 80
 
 
-[module]
-  # uncomment line below for temporary local development of module
-  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
-  [[module.imports]]
-    path = "anatole/"
-    disable = false
-
 [params]
 title = "Portfolio"
 author = "joooi13.dev"
@@ -57,6 +50,7 @@ description = "I'm Yu Joi"
 profilePicture = "images/profile.jpg"
 disableThemeSwitcher = true
 favicon = "favicons/"
+customCss = ["css/custom.css"]
 
 [[params.socialIcons]]
 icon = "fab fa-github"
