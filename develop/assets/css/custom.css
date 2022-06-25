@@ -1,0 +1,25 @@
+* {
+  background-color: #dcdcdc !important;
+  text-transform: none !important;
+}
+
+.post__content h1 {
+  font-size: 2.7rem !important;
+  line-height: 1.5em !important;
+}
+
+.post__content h3 {
+  font-size: 2rem !important;
+  line-height: 1.5em !important;
+  text-transform: none !important;
+}
+
+@media screen and (min-width: 961px) {
+  .wrapper__sidebar {
+    width: calc(calc(1 - 0.6) * 70%) !important;
+  }
+}
+
+.navbar-burger {
+  background-color: #c0c6c9 !important;
+}
