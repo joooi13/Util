@@ -1,9 +1,7 @@
 +++
 title = "About"
 description = "about"
-date = "2022-06-20"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Hugo Authors"
+author = "joooi13"
 +++
 
 ### Career
