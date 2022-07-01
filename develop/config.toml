@@ -88,3 +88,22 @@ url = "mailto:joinc.dev.info@gmail.com"
   weight = 200
   identifier = "posts"
   url = "/post/"
+
+  [[menu.main]]
+  name = "Works"
+  weight = 300
+  identifier = "works"
+
+  [[menu.main]]
+  name = "Oshi Countdown"
+  weight = 310
+  identifier = "oshi_countdown"
+  url = "/oshi_countdown/"
+  parent = "works"  
+
+  [[menu.main]]
+  name = "Hi! Hangul"
+  weight = 310
+  identifier = "hi_hangul"
+  url = "/hi_hangul/"
+  parent = "works"  

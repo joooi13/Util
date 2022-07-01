@@ -22,3 +22,13 @@
     width: calc(calc(1 - 0.6) * 70%) !important;
   }
 }
+
+.store-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: unset;
+}
+.store-area-li {
+  list-style: none;
+}

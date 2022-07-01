@@ -117,5 +117,27 @@
       
     </item>
     
+    <item>
+      <title>Hi! Hangul</title>
+      <link>/hi_hangul/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/hi_hangul/</guid>
+      
+        <description>    概要  クイズ形式でハングルを学べるアプリです。 4 択の問題が出題され、10 問答えたら成績を表示するようにしています。 韓国語を勉強したいなと思い作りました。  使用技術  Flutter  </description>
+      
+    </item>
+    
+    <item>
+      <title>Oshi Countdown</title>
+      <link>/oshi_countdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/oshi_countdown/</guid>
+      
+        <description>    概要  大切な時間までカウントダウンするアプリです。  使用技術  Flutter  </description>
+      
+    </item>
+    
   </channel>
 </rss>
