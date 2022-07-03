@@ -1,5 +1,5 @@
 +++
-title = "Oshi Countdown"
+title = "推し時間"
 +++
 
 <img class="app_icon" src="/images/oshi_countdown_icon.png" alt="app img" />

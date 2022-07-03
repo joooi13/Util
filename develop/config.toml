@@ -52,6 +52,7 @@ disableThemeSwitcher = true
 favicon = "favicons/"
 customCss = ["css/custom.css"]
 mainSections = [""]
+enableMediumZoom = false
 
 [[params.socialIcons]]
 icon = "fab fa-github"
@@ -95,7 +96,7 @@ url = "mailto:joinc.dev.info@gmail.com"
   identifier = "works"
 
   [[menu.main]]
-  name = "Oshi Countdown"
+  name = "推し時間"
   weight = 310
   identifier = "oshi_countdown"
   url = "/oshi_countdown/"
