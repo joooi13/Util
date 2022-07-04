@@ -53,6 +53,7 @@ favicon = "favicons/"
 customCss = ["css/custom.css"]
 mainSections = [""]
 enableMediumZoom = false
+gtagId = "G-014RE3M7Z8"
 
 [[params.socialIcons]]
 icon = "fab fa-github"
