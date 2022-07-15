@@ -46,12 +46,12 @@ pygmentsCodefencesGuessSyntax = true
 [params]
 title = "Portfolio"
 author = "joooi13.dev"
-description = "I'm Yu Joi"
+description = "I'm Yu Joi. Software Engineer."
 profilePicture = "images/profile.jpg"
 disableThemeSwitcher = true
 favicon = "favicons/"
 customCss = ["css/custom.css"]
-mainSections = [""]
+mainSections = ["post"]
 enableMediumZoom = false
 gtagId = "G-014RE3M7Z8"
 
@@ -79,8 +79,9 @@ url = "mailto:joinc.dev.info@gmail.com"
 
 [menu]
 
+
   [[menu.main]]
-  name = "About"
+  name = "Home"
   identifier = "home"
   weight = 100
   url = "/"
@@ -109,3 +110,9 @@ url = "mailto:joinc.dev.info@gmail.com"
   identifier = "hi_hangul"
   url = "/hi_hangul/"
   parent = "works"  
+
+[[menu.main]]
+  name = "About"
+  identifier = "about"
+  weight = 400
+  url = "/about/"

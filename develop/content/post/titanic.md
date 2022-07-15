@@ -1,5 +1,5 @@
 +++
-title = "【Kaggle初心者】Titanicの次へ行きたい"
+title = "[Kaggle初心者] Titanicの次へ行きたい"
 description = "titanic"
 date = "2022-03-18"
 aliases = ["about-us", "about-hugo", "contact"]
