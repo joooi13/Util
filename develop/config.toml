@@ -51,6 +51,7 @@ profilePicture = "images/profile.jpg"
 disableThemeSwitcher = true
 favicon = "favicons/"
 customCss = ["css/custom.css"]
+customJs = ["js/ad.js"]
 mainSections = ["post"]
 enableMediumZoom = false
 gtagId = "G-014RE3M7Z8"
