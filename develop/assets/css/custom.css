@@ -32,3 +32,7 @@
 .store-area-li {
   list-style: none;
 }
+
+.body.theme--light {
+  padding: 0px 0px 154px;
+}
